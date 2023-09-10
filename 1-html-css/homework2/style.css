@@ -1,5 +1,39 @@
+*{
+  box-sizing: border-box;
+}
 p{
   font-family: Helvetica,Arial, sans-serif;
+}
+.menu li,a{
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  
+}
+.menu_a a:hover{
+  color: rgb(4, 6, 66);
+  text-decoration: none;
+}
+.container{
+  text-align: center;
+}
+.work_1{
+  background: gray;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 15px 0 15px 0;
+}
+.work_2{
+  background: rgb(184, 177, 177);
+  padding: 15px;
+  border: 1px solid black;
+  margin: 15px 0 15px 0;
+}
+.work_3{
+  background: rgb(166, 166, 166);
+  padding: 10px;
+  border: 1px solid black;
+  margin: 15px 0 15px 0;
 }
 
 .footer a{
@@ -11,19 +45,19 @@ p{
   text-align: center;
   color: rgb(160, 159, 159);
 }
-a:link{
+.footer a:link{
   color: rgb(160, 159, 159);
 }
-a:visited{
+.footer a:visited{
   color: red;
 }
-a:hover{
+.footer a:hover{
   color: rgb(4, 6, 66);
 }
 
-a:focus{
+.footer a:focus{
 color: blueviolet;
 }
-a:active{
+.footer a:active{
   color:blue;
 }
