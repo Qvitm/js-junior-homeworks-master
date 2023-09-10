@@ -4,3 +4,6 @@ font-weight: bold;
 .italic{
 font-style: italic;
 }
+.text-uppercase{
+  text-transform: uppercase;
+}
