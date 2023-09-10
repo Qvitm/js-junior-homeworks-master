@@ -1,0 +1,29 @@
+p{
+  font-family: Helvetica,Arial, sans-serif;
+}
+
+.footer a{
+  color:rgb(146, 146, 146);
+  text-decoration: none;
+  
+} 
+.footer-copy{
+  text-align: center;
+  color: rgb(160, 159, 159);
+}
+a:link{
+  color: rgb(160, 159, 159);
+}
+a:visited{
+  color: red;
+}
+a:hover{
+  color: rgb(4, 6, 66);
+}
+
+a:focus{
+color: blueviolet;
+}
+a:active{
+  color:blue;
+}
