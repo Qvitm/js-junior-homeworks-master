@@ -1,10 +1,8 @@
-*{
-  box-sizing: border-box;
-}
+
 p{
   font-family: Helvetica,Arial, sans-serif;
 }
-.menu li,a{
+.menu li, .menu a{
   display: inline-block;
   font-size: 20px;
   padding: 0 10px 0 10px;
@@ -17,23 +15,21 @@ p{
 .container{
   text-align: center;
 }
+.work{
+  border: 1px solid black;
+  margin: 15px 0 15px 0;
+}
 .work_1{
   background: gray;
   padding: 20px;
-  border: 1px solid black;
-  margin: 15px 0 15px 0;
 }
 .work_2{
   background: rgb(184, 177, 177);
   padding: 15px;
-  border: 1px solid black;
-  margin: 15px 0 15px 0;
 }
 .work_3{
   background: rgb(166, 166, 166);
   padding: 10px;
-  border: 1px solid black;
-  margin: 15px 0 15px 0;
 }
 
 .footer a{
