@@ -1,0 +1,59 @@
+
+p{
+  font-family: Helvetica,Arial, sans-serif;
+}
+.menu li, .menu a{
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  
+}
+.menu_a a:hover{
+  color: rgb(4, 6, 66);
+  text-decoration: none;
+}
+.container{
+  text-align: center;
+}
+.work{
+  border: 1px solid black;
+  margin: 15px 0 15px 0;
+}
+.work_1{
+  background: gray;
+  padding: 20px;
+}
+.work_2{
+  background: rgb(184, 177, 177);
+  padding: 15px;
+}
+.work_3{
+  background: rgb(166, 166, 166);
+  padding: 10px;
+}
+
+.footer a{
+  color:rgb(146, 146, 146);
+  text-decoration: none;
+  
+} 
+.footer-copy{
+  text-align: center;
+  color: rgb(160, 159, 159);
+}
+.footer a:link{
+  color: rgb(160, 159, 159);
+}
+.footer a:visited{
+  color: red;
+}
+.footer a:hover{
+  color: rgb(4, 6, 66);
+}
+
+.footer a:focus{
+color: blueviolet;
+}
+.footer a:active{
+  color:blue;
+}
