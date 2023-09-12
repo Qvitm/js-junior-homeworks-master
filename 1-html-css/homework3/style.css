@@ -19,7 +19,6 @@ p{
   color: rgb(4, 6, 66);
 }
 .history{
-  /* background: url(./img/paper-1914901_1920.jpg) center no-repeat; */
   position: relative;
   opacity: 0.5;
   z-index: 0;
@@ -32,7 +31,7 @@ p{
   z-index: 0;
 }
 .inline{
-  display: inline;
+  margin-top: 10px;
   position: absolute;
   z-index: 5;
   top: 0px;
@@ -47,6 +46,9 @@ p{
 }
 .history h3{
   margin-top: 10px;
+}
+.languages{
+  background: url(./img/paper-1914901_1920.jpg) center no-repeat;
 }
 .container{
   text-align: center;
