@@ -30,7 +30,7 @@ p{
   height: 100%;
   z-index: 0;
 }
-.inline{
+.overlay-inline{
   margin-top: 10px;
   position: absolute;
   z-index: 5;
@@ -47,8 +47,18 @@ p{
 .history h3{
   margin-top: 10px;
 }
+.bold-h1{
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
 .languages{
   background: url(./img/paper-1914901_1920.jpg) center no-repeat;
+}
+.text-uppercase-ul{
+  text-transform: uppercase;
+  margin-top: 25px;
+  line-height: 25px;
 }
 .container{
   text-align: center;
