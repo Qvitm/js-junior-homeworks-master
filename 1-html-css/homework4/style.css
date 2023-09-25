@@ -1,0 +1,200 @@
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 30px;
+}
+.menu {
+  background: rgb(31, 20, 103);
+  background: linear-gradient(
+    298deg,
+    rgba(31, 20, 103, 1) 0%,
+    rgba(42, 19, 92, 1) 22%,
+    rgba(142, 157, 190, 1) 39%,
+    rgba(146, 160, 217, 1) 61%,
+    rgba(185, 150, 203, 1) 82%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 50px;
+  padding: 10px;
+}
+
+.menu li,
+.menu a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+.menu_a a:hover {
+  color: rgb(4, 6, 66);
+}
+.history {
+  position: relative;
+  opacity: 0.5;
+  z-index: 0;
+}
+.history video {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.overlay-inline {
+  margin-top: 10px;
+  position: absolute;
+  z-index: 5;
+  top: 0px;
+  left: 0px;
+}
+.img-inline {
+  float: right;
+  width: 300px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 5px;
+  clear: both;
+}
+
+.inline:hover {
+  border: 1px solid black;
+  background: red;
+}
+.history:hover {
+  opacity: 1;
+}
+.history h3 {
+  margin-top: 10px;
+}
+.bold-h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.languages {
+  display: inline-block;
+  background: url(./img/paper-1914901_1920.jpg) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.text-uppercase-ul {
+  text-transform: uppercase;
+  margin-top: 25px;
+  line-height: 25px;
+}
+.container {
+  position: relative;
+  background: url(./img/color/orange.jpg) center no-repeat;
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  min-height: 1000px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  align-items: center;
+}
+.black {
+  position: absolute;
+  background: url(./img/color/black.jpg) center no-repeat;
+  z-index: 5;
+  width: 350px;
+  min-height: 300px;
+  border-radius: 10px;
+}
+.black_1 {
+  left: 25px;
+}
+.black_3 {
+  right: 25px;
+}
+
+.work {
+  background: url(./img/color/black.jpg) center no-repeat;
+
+  border: 1px solid black;
+  margin: 70px auto;
+  color: white;
+  min-height: 130px;
+  width: 300px;
+  padding-top: 50px;
+}
+.work:hover {
+  opacity: 0.7;
+}
+.work,
+a {
+  color: white;
+  height: 100%;
+}
+.work h3 {
+  font-size: 14px;
+  width: 100%;
+}
+.work p {
+  font-size: 10px;
+}
+.work_1 {
+  background: url(./img/guitar.jpg) center no-repeat;
+  background-size: cover;
+  line-height: 10px;
+}
+
+.work_2 {
+  background: url(./img/family.jpg) center no-repeat;
+  background-size: cover;
+}
+.work_3 {
+  background: url(./img/euro-1353420_1280.jpg) center no-repeat;
+  background-size: cover;
+}
+.footer {
+  background: rgb(31, 20, 103);
+  background: linear-gradient(
+    298deg,
+    rgba(31, 20, 103, 1) 0%,
+    rgba(42, 19, 92, 1) 22%,
+    rgba(142, 157, 190, 1) 39%,
+    rgba(146, 160, 217, 1) 61%,
+    rgba(185, 150, 203, 1) 82%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px;
+  height: 70px;
+}
+.footer a {
+  color: rgb(146, 146, 146);
+}
+.footer-copy {
+  text-align: center;
+  color: rgb(160, 159, 159);
+}
+.footer a:link {
+  color: rgb(160, 159, 159);
+}
+.footer a:visited {
+  color: red;
+}
+.footer a:hover {
+  color: rgb(4, 6, 66);
+}
+.footer a:focus {
+  color: blueviolet;
+}
+.footer a:active {
+  color: blue;
+}
+.button {
+  position: fixed;
+  z-index: 7;
+  background: rgb(241, 179, 179);
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  bottom: 15px;
+  right: 20px;
+  text-align: center;
+  padding: 10px;
+}
